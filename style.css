@@ -21,9 +21,19 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 body {
+  margin: 0;
+  padding: 0;
   background: #000;
   height: 100vh;
+  display: flex;
+  jusify-content: center;
+  align-items: center;
   overflow: hidden;
+}
+
+#ui {
+    transfrom: scale(1);
+    position: relative;
 }
 
 #ui .love {
